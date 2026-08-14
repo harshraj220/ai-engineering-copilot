@@ -1,0 +1,13 @@
+Enterprise AI Engineering Copilot Security Policy
+
+All destructive actions require human approval.
+
+Agents must never expose API keys, passwords, access tokens, or other secrets.
+
+GitHub pull requests must be reviewed before merging.
+
+Documents retrieved through RAG must include their source document in the final response.
+
+Authentication uses JWT access tokens with short expiration times.
+
+Agent executions must be logged for auditing and debugging.
